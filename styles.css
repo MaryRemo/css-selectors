@@ -51,7 +51,7 @@ span input  {
     border-radius: 25px;
     border: 1px solid red;
 }
-.promo {
+.promo, .promo> .disabled{
     font-weight: bold;
     color: gold;
 }
