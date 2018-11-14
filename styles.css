@@ -15,6 +15,7 @@
 
 header li {
     display: inline-block;
+    padding-right: 50px;
 }
 
 span.active {
@@ -33,4 +34,24 @@ span.disabled {
 }
 .parent > div >div:last-of-type {
     color:blue; 
+}
+.parent >div >div:first-child + h4 {
+    background-color: red;
+
+}
+.parent > div >div:last-of-type + h4 {
+    background-color:blue; 
+}
+
+span input  {
+    height: 25px;
+}
+
+.grandparent > h4{
+    border-radius: 25px;
+    border: 1px solid red;
+}
+.promo {
+    font-weight: bold;
+    color: gold;
 }
